@@ -1,0 +1,204 @@
+* {
+    margin: 0px auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    *::-webkit-scrollbar {
+        height: 10px;
+        width: 10px;
+      }
+      *::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: #DFE9EB;
+      }
+      
+      *::-webkit-scrollbar-track:hover {
+        background-color: #B8C0C2;
+      }
+      
+      *::-webkit-scrollbar-track:active {
+        background-color: #B8C0C2;
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #7A6248;
+      }
+      
+      *::-webkit-scrollbar-thumb:hover {
+        background-color: #62A34B;
+      }
+      
+      *::-webkit-scrollbar-thumb:active {
+        background-color: #62A34B;
+      }
+}
+
+.conteudo-todo {
+    background-color: #F1E7C5;
+    max-width: 1024px;
+}
+
+.topo {
+    border: 1px solid #7A6248;
+    max-width: 1024px;
+    min-width: 220px;
+    background-color: #F1E7C5;
+    color: #7A6248;
+}
+
+.largura-max {
+    max-width: 1024px;
+    min-width: 300px;
+    background-color: #F1E7C5;
+    color: #7A6248;
+}
+
+.titulo-topo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/*capa de fundo*/
+.capa-fundo {
+    max-width: 1024px;
+    width: 100%;
+    background-image: url(../guapecapa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px
+}
+
+/*Historia do bangalô*/
+.bangalo h2 {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 3px solid #7A6248;
+    border-top: 3px solid #7A6248;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 0px 10px 15px #7A6248;
+}
+
+.container-divisorio {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    background-color: #F1E7C5;
+    min-width: 300px;
+}
+
+.texto-bangalo {
+   width: 600px;
+   margin: 10px auto;
+   text-align: center;
+   line-height: 32px;
+}
+
+.texto-bangalo p {
+    font-size: 20px;
+}
+
+.imagem-bangalo {
+    width: 300px;
+}
+
+.imagem-do-bangalo img {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px 5px #7a6248;
+}
+
+/*Historia de guapé*/
+.guape h2 {
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: normal;
+    font-size: 32px;
+    text-shadow: 0px 10px 15px #7A6248;
+}
+
+.texto-guape {
+    text-align: center;
+    margin: 0px auto;
+    width: 800px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.container-guape {
+    border: 1px solid #7A6248;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    background-color: #F1E7C5;
+}
+
+.galeria-de-guape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0px 20px;
+    width: 650px;
+    overflow-x: auto;
+}
+
+.galeria-de-guape img {
+    margin: 0px 20px;
+}
+
+
+
+.galeria-de-guape .imagem-guape {
+    min-width: 220px;
+    width: 350px;
+    box-shadow: 0px 0px 5px 5px #7a6248;
+    margin: 10px 10px;
+    white-space: nowrap;
+}
+
+/*Localização*/
+iframe {
+    display: flex;
+    margin: 50px auto;
+    border-radius: 55px;
+    width: 900px;
+    height: 400px;
+    box-shadow: 0px 0px 10px 5px #7a6248;
+}
+
+/*Rodapé da página*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #7A6248;
+    padding: 30px;
+}
+
+footer h3 {
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 10px;
+    color: #7A6248;
+    text-shadow: 0px 10px 15px #7A6248;
+}
+
+.rede-social {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #7A6248;
+    font-size: 20px;
+}
+
+.rede-social a{
+    text-decoration: none;
+    color: #7A6248;
+}
+
+.rede-social span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    text-shadow: 0px 10px 15px #7A6248;
+}
