@@ -42,7 +42,7 @@
 .topo {
     border: 1px solid #7A6248;
     max-width: 1024px;
-    min-width: 220px;
+    min-width: 500px;
     background-color: #F1E7C5;
     color: #7A6248;
 }
@@ -129,10 +129,11 @@
 
 .container-guape {
     border: 1px solid #7A6248;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding-bottom: 40px;
     background-color: #F1E7C5;
+    min-width: 500px;
 }
 
 .galeria-de-guape {
@@ -142,6 +143,8 @@
     padding: 0px 20px;
     width: 650px;
     overflow-x: auto;
+    max-width: 900px;
+    min-width: 500px;
 }
 
 .galeria-de-guape img {
@@ -151,7 +154,7 @@
 
 
 .galeria-de-guape .imagem-guape {
-    min-width: 220px;
+    /*min-width: 220px;*/
     width: 350px;
     box-shadow: 0px 0px 5px 5px #7a6248;
     margin: 10px 10px;
