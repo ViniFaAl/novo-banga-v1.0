@@ -36,27 +36,26 @@
 
 .conteudo-todo {
     background-color: #F1E7C5;
-    max-width: 1024px;
+    max-width: 1324px;
 }
 
 .topo {
-    border: 1px solid #7A6248;
-    max-width: 1024px;
-    min-width: 500px;
+    height: auto;
+    max-width: 1324px;
     background-color: #F1E7C5;
     color: #7A6248;
 }
 
 .largura-max {
+    width: 100%;
     max-width: 1024px;
-    min-width: 300px;
     background-color: #F1E7C5;
     color: #7A6248;
 }
 
 .titulo-topo {
     text-align: center;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 /*capa de fundo*/
@@ -83,9 +82,9 @@
 .container-divisorio {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 20px 0;
     background-color: #F1E7C5;
-    min-width: 300px;
 }
 
 .texto-bangalo {
@@ -101,6 +100,8 @@
 
 .imagem-bangalo {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .imagem-do-bangalo img {
@@ -111,6 +112,10 @@
 }
 
 /*Historia de guapé*/
+.guape {
+    height: auto;
+}
+
 .guape h2 {
     text-align: center;
     margin: 40px 0px;
@@ -131,9 +136,8 @@
     border: 1px solid #7A6248;
     max-width: 900px;
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding: 30px;
     background-color: #F1E7C5;
-    min-width: 500px;
 }
 
 .galeria-de-guape {
@@ -144,17 +148,13 @@
     width: 650px;
     overflow-x: auto;
     max-width: 900px;
-    min-width: 500px;
 }
 
 .galeria-de-guape img {
     margin: 0px 20px;
 }
 
-
-
 .galeria-de-guape .imagem-guape {
-    /*min-width: 220px;*/
     width: 350px;
     box-shadow: 0px 0px 5px 5px #7a6248;
     margin: 10px 10px;
@@ -204,4 +204,107 @@ footer h3 {
     font-style: italic;
     font-size: 25px;
     text-shadow: 0px 10px 15px #7A6248;
+}
+
+.rede-social span:hover {
+    color: #F1E7C5;
+    background-color: #7A6248;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 880px) {
+    .imagem-do-bangalo {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .imagem-do-bangalo img {
+        width: calc((90% / 3) - 10px);
+    }
+
+    iframe {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container-guape {
+        height: auto;
+    }
+
+    .imagem-do-bangalo {
+    }
+
+    .texto-bangalo {
+        padding: 10px;
+    }
+
+    .texto-guape {
+        width: 100%;
+    }
+
+    .texto-guape p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .galeria-de-guape {
+        width: 100%;
+    }
+
+    .galeria-de-guape img {
+        width: 350px;
+    }
+
+    footer h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container-guape h2 {
+        font-size: 26px;
+    }
+
+    .container-guape p {
+        font-size: 14px;
+    }
+
+    .container-guape {
+        border: none;
+    }
+
+    .container-guape .galeria-de-guape img{
+     width: 200px;   
+    }
+
+    .container-guape {
+        width: 100%;
+    }
+
+    .texto{
+        height: auto;
+        padding: 20px;
+    }
+
+    .rede-social {
+        height: auto;
+    }
+
+    .rede-social h4 {
+        line-height: 40px;
+        padding: 10px;
+    }
+
+    .rede-social span {
+        font-size: 18px;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    footer h3{
+        font-size: 14px;
+    }
+    
 }
