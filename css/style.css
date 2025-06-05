@@ -264,6 +264,14 @@ footer h3 {
         font-size: 26px;
     }
 
+    .imagem-do-bangalo img:nth-child(odd){
+        display: none;
+    }
+
+    .imagem-do-bangalo img {
+        width: 90%;
+    }
+
     .container-guape p {
         font-size: 14px;
     }
